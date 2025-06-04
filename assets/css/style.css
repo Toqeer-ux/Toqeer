@@ -11870,7 +11870,6 @@ header.header-full-width.header--sticky.sticky {
 .tmp-scroll-trigger.tmp-scroll-trigger--design-mode.slide_in {
   transform: translateY(0);
 }
-
 @keyframes slideIn {
   from {
     transform: translateY(2rem);
@@ -29674,4 +29673,9 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
 
 .active-light.demo-modal-area .wrapper .tmp-modal-inner .demo-top .subtitle {
   color: #3d3d3d !important;
+}
+@media(max-width:500px){
+  .tmp-scroll-trigger:not(.tmp-scroll-trigger--offscreen).tmp-zoom-in {
+        height: auto !important;
+    }
 }
